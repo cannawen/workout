@@ -3,6 +3,7 @@
 (def routine
   [
    "Glute bridge" 
+   "Monster walk"
    "Squat"
    "face pull"
    "Bench or Overhead press"
