@@ -14,11 +14,12 @@
   (->> (io/resource "exercises.json")
        slurp
        (json/read-str)
-       (mapv (fn [{:strs [name gifUrl equipments
+       (mapv (fn [{:strs [name gifUrl equipments instructions
                           targetMuscles bodyParts secondaryMuscles]}]
                {:exercise/name name
                 :exercise/equipment equipments
                 :exercise/media-url gifUrl
+                :exercise/information instructions
                 :exercise/target-muscles (->> (concat targetMuscles bodyParts secondaryMuscles)
                                               (map string->keyword)
                                               set)}))))

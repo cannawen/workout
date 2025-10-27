@@ -9,17 +9,17 @@
       :exercise/media-file "monster-walk.webm"}
     
     {:exercise/name "Squat"
-     :exercise/instructions "While resting: Door twist, Door arm raise, paloff press"
+     :exercise/information "While resting: Door twist, Door arm raise, paloff press"
      :exercise/self-paced? true}
     
     {:exercise/name "face pull"}
 
     {:exercise/name "Band pull aparts"
      :exercise/media-file "posture-band-pull.webm"
-     :exercise/instructions "Thumbs out"}
+     :exercise/information "Thumbs out"}
     
     {:exercise/name "Bench or Overhead press"
-     :exercise/instructions "While resting: calf stretch, quad stretch"
+     :exercise/information "While resting: calf stretch, quad stretch"
      :exercise/self-paced? true}
     
     {:exercise/name "Deadlift"
@@ -30,7 +30,7 @@
     
     {:exercise/name "Door Twist"
      :exercise/two-sided? true
-     :exercise/instructions "Elbow against door frame; twist chest open; hand back"
+     :exercise/information "Elbow against door frame; twist chest open; hand back"
      :exercise/media-file "posture-door-chest-twist.webm"}
     
     {:exercise/name "Triceps and lat stretch"
@@ -46,7 +46,7 @@
      :exercise/media-file "forearm-extensor-stretch.png"}
     
     {:exercise/name "Shoulder rolls"
-     :exercise/instructions "Scapular circles"
+     :exercise/information "Scapular circles"
      :exercise/two-sided? true}
     
     {:exercise/name "Triceps eccentric control"
@@ -59,11 +59,11 @@
     
     {:exercise/name "External rotation"
      :exercise/two-sided? true
-     :exercise/instructions "Band or cable"
+     :exercise/information "Band or cable"
      :exercise/media-file "external-rotation.webm"}
     
     {:exercise/name "Quadruped rocking"
      :exercise/two-sided? true
      :exercise/media-file "quadruped-rocking.webm"
-     :exercise/instructions "Elbows slightly bent"}
+     :exercise/information "Elbows slightly bent"}
   })

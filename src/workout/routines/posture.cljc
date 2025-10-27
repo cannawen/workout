@@ -11,7 +11,7 @@
    "door twist"
 
    {:exercise/name "Band Raise"
-    :exercise/instructions "Some tension, thumbs up"
+    :exercise/information "Some tension, thumbs up"
     :exercise/media-file "posture-band-up.webm"}
 
    "door twist"
@@ -19,6 +19,6 @@
    "Band pull aparts"
 
    {:exercise/name "Door Shoulder Stretch"
-    :exercise/instructions "Shoulder against door frame; pinch shoulder blades; feet offset; raise and lower arm"
+    :exercise/information "Shoulder against door frame; pinch shoulder blades; feet offset; raise and lower arm"
     :exercise/two-sided? true
     :exercise/media-file "posture-door-arm-up.webm"}])

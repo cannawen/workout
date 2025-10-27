@@ -103,7 +103,7 @@
         [emoji-favicon "🏋"]
         [controls-view]
         [:div {:tw "text-4xl font-bold"} (:exercise/name exercise)]
-        [:div (:exercise/instructions exercise)]
+        [:div (:exercise/information exercise)]
         (if @state/paused?
           [:div {:tw "text-2xl font-bold h-40 flex items-center"} "PAUSED"]
           (case (last (string/split filepath #"\."))
