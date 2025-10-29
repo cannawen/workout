@@ -13,15 +13,16 @@
     :exercise/two-sided? true
     :exercise/media-file "quad-stretch.png"}
    
-   {:exercise/name "Wall sits"}
+   "Wall sits"
 
-   {:exercise/name "Side-Lying Hip Flexor Stretch"
-    :exercise/two-sided? true
-    :exercise/media-file "side-lying-hip-flexor-stretch.png"}
+   "Hip flexor lunge stretch"
+
+   "Couch stretch"
 
    {:exercise/name "Step ups"
     :exercise/two-sided? true}
 
    "Glute bridge"
 
-   "Side Leg Raises"])
+   "Side Leg Raises"
+])

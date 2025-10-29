@@ -29,14 +29,12 @@
 
    {:exercise/name "Cobra"
     :exercise/media-file "cobra-stretch.png"}
-   
+
    {:exercise/name "Figure four stretch"
     :exercise/two-sided? true
     :exercise/media-file "figure-4.webm"}
 
-   {:exercise/name "Hip flexor lunge stretch"
-    :exercise/two-sided? true
-    :exercise/media-file "hip-flexor-lunge-stretch.png"}
+   "Hip flexor lunge stretch"
 
    {:exercise/name "Hamstring stretch"
     :exercise/two-sided? true
