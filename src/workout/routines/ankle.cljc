@@ -2,9 +2,7 @@
 
 (def routine
 
-  [{:exercise/name "Ankle Alphabet"
-    :exercise/self-paced? true
-    :exercise/media-file "ankle-alphabet.png"}
+  ["Ankle Alphabet"
 
    {:exercise/name "Heel Cord Stretch"
     :exercise/two-sided? true
@@ -36,8 +34,7 @@
    {:exercise/name "Towel scrunch"
     :exercise/media-file "towel-scrunch.png"}
 
-   {:exercise/name "Single Leg balance"
-    :exercise/two-sided? true}
+   "Single Leg balance"
 
    {:exercise/name "One-legged calf raise"
     :exercise/two-sided? true}

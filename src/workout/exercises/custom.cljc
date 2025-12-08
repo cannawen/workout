@@ -74,4 +74,15 @@
     {:exercise/name "Hip flexor lunge stretch"
      :exercise/two-sided? true
      :exercise/media-file "hip-flexor-lunge-stretch.png"}
+    
+    {:exercise/name "Ankle Alphabet"
+     :exercise/self-paced? true
+     :exercise/media-file "ankle-alphabet.png"}
+    
+   {:exercise/name "Single Leg balance"
+    :exercise/information "Start barefoot. Progress to: eyes closed, unstable surface, gentle head turns or arm reaches"
+    :exercise/two-sided? true}
+    
+    {:exercise/name "Tibialis Raise"
+     :exercise/media-file "tib-raise.png"}
 })
